@@ -1,0 +1,282 @@
+/*костыль для резиновости блока intro*/
+/*разрешение от 0 до 985px*/
+
+@media screen and (max-width: 985px) {
+
+    .intro {
+        min-width: 100%;
+        align-self: flex-start;
+    }
+}
+
+/*разрешение от 0 до 1048px*/
+@media screen and (max-width: 1048px) {
+
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 14px;
+    }
+
+    .intro {
+        min-width: 100%;
+    }
+
+}
+
+/*разрешение от 0 до 769px*/
+@media screen and (max-width: 769px) {
+
+    .photo-grid {
+        v grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+        width: 100%;
+    }
+
+}
+
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .page {
+        gap: 64px;
+        padding: 0 16px;
+    }
+
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        min-height: 0;
+    }
+
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 40px;
+        width: auto;
+        min-height: 0;
+    }
+
+    .lead {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .photo-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+        width: 100%;
+    }
+
+    .places__place {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 32px;
+        outline: 1px solid red;
+    }
+
+    .footer__copyright {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__links_link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer {
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+    .cover {
+        gap: 16px;
+        min-height: 200px;
+    }
+
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .header__logo {
+        height: 42px;
+        width: 142px;
+    }
+
+    .header {
+        padding-top: 16px;
+    }
+
+    .header__logo {
+        padding-left: 16px;
+    }
+
+    .header__lang-link_position {
+        padding-right: 16px;
+    }
+
+}
+
+
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .page {
+        gap: 88px;
+    }
+
+    .places__place {
+        column-gap: 28px;
+    }
+
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .header__logo {
+        padding-left: 24px;
+    }
+
+    .header__lang-link_position {
+        padding-right: 24px;
+    }
+
+}
+
+/*при разрешении от 1023 до 1279px */
+/*разрешение 1024px */
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+
+    .places__place {
+        column-gap: 32px;
+    }
+
+
+}
+
+
+
+
+
+/*
+
+/*разрешение от 0 до 760px
+
+@media screen and (max-width: 760px) {
+
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 40px;
+    }
+
+    .lead {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+}
+
+
+/*разрешение свыше 1024px
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        padding-top: 48px;
+    }
+}
+
+
+/*разрешение свыше 1024px
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        padding-top: 48px;
+    }
+}
+
+/*разрешение от 768 до 1280px
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .photo-grid__item {
+
+        height: 225px;
+        width: 300px;
+    }
+}
+
+/*разрешение от 320 до 1024px
+@media screen and (min-width: 319px) and (max-width: 1023px) {
+    .photo-grid__item {
+
+        height: 264px;
+        width: 352px;
+    }
+}
+
+/*разрешение 320px
+@media screen and (max-width: 321px) {
+    .photo-grid__item {
+        height: 288px;
+        width: 216px;
+    }
+}
+
+*/

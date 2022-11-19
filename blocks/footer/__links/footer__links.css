@@ -1,0 +1,4 @@
+.footer__links {
+    display: inline-flex;
+    gap: 18px;
+}

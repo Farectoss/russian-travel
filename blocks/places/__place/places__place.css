@@ -1,0 +1,12 @@
+.places__place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "title link"
+        "image paragraph-1"
+        "image paragraph-1";
+    outline: 1px solid blue;
+}
