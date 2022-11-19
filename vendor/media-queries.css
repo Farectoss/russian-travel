@@ -28,6 +28,9 @@
         width: 100%;
     }
 
+    .intro {
+        min-width: 200px;
+    }
 }
 
 
@@ -58,7 +61,9 @@
     }
 
     .intro {
-        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+
     }
 
     .intro__title {
@@ -191,15 +196,15 @@
         padding-left: 24px;
     }
 
-    .intro {
-        min-width: 200px;
-        padding: 0 24px;
-    }
 
     .intro__text {
         max-width: 100%;
     }
 
+    .intro {
+        min-width: 200px;
+        padding: 0 24px;
+    }
 }
 
 /*при разрешении от 1023 до 1279px */
