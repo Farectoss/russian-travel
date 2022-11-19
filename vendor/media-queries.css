@@ -77,7 +77,6 @@
         align-items: center;
         row-gap: 12px;
         padding: 0px 16px;
-
     }
 
     .places__place {
@@ -158,6 +157,22 @@
     .intro {
         padding: 0 16px;
     }
+
+    .place__title {
+        padding-left: 16px;
+    }
+
+    .place__website {
+        padding-left: 16px;
+    }
+
+    .place__paragraph {
+        padding: 0 16px;
+    }
+
+    .footer {
+        padding: 0 0 24px 16px;
+    }
 }
 
 
@@ -206,6 +221,10 @@
         min-width: 200px;
         padding: 0 24px;
     }
+
+    .places {
+        padding: 0 24px;
+    }
 }
 
 /*при разрешении от 1023 до 1279px */
@@ -229,6 +248,9 @@
         padding-left: 48px;
     }
 
+    .places {
+        padding: 0 48px;
+    }
 
     /*
 
