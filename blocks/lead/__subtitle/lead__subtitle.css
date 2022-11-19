@@ -8,4 +8,5 @@
     min-height: 72px;
     margin: 32px auto 64px;
     display: inline;
+    white-space: pre-line;
 }
