@@ -4,7 +4,6 @@
 @media screen and (max-width: 985px) {
 
     .intro {
-        min-width: 100%;
         align-self: flex-start;
     }
 }
@@ -17,9 +16,6 @@
         grid-gap: 14px;
     }
 
-    .intro {
-        min-width: 100%;
-    }
 
 }
 
@@ -27,7 +23,7 @@
 @media screen and (max-width: 769px) {
 
     .photo-grid {
-        v grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 16px;
         width: 100%;
     }
@@ -41,7 +37,6 @@
 
     .page {
         gap: 64px;
-        padding: 0 16px;
     }
 
     .lead__title {
@@ -150,6 +145,13 @@
         padding-right: 16px;
     }
 
+    .lead__caption {
+        padding-left: 16px;
+    }
+
+    .intro {
+        padding: 0 16px;
+    }
 }
 
 
@@ -185,6 +187,19 @@
         padding-right: 24px;
     }
 
+    .lead__caption {
+        padding-left: 24px;
+    }
+
+    .intro {
+        min-width: 200px;
+        padding: 0 24px;
+    }
+
+    .intro__text {
+        max-width: 100%;
+    }
+
 }
 
 /*при разрешении от 1023 до 1279px */
@@ -195,14 +210,22 @@
         column-gap: 32px;
     }
 
+    .lead__subtitle {
+        margin-bottom: 56px;
+        display: inline;
 
-}
+    }
+
+    .lead {
+        max-width: 928px;
+    }
+
+    .intro {
+        padding-left: 48px;
+    }
 
 
-
-
-
-/*
+    /*
 
 /*разрешение от 0 до 760px
 
