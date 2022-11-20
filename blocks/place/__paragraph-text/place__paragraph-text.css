@@ -1,9 +1,9 @@
-.place__website-link {
+.place__paragraph-text {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 29px;
     text-align: left;
     color: #fff;
-    grid-area: link;
+    margin: 0;
 }

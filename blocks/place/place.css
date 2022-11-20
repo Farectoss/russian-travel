@@ -6,6 +6,6 @@
     grid-template-rows: auto auto auto;
     grid-template-areas:
         "title link"
-        "image paragraph-1"
-        "image paragraph-1";
+        "image paragraph"
+        "image paragraph";
 }
