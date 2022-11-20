@@ -95,6 +95,9 @@
         flex-direction: column;
         row-gap: 48px;
         padding: 0 0 24px 16px;
+        width: auto;
+        align-self: flex-start;
+        margin: 0;
     }
 
     .footer__links {
@@ -160,13 +163,6 @@
 
     .place__paragraph {
         padding: 0 16px;
-    }
-
-    .footer {
-        width: auto;
-        padding-left: 16px;
-        align-self: flex-start;
-        margin: 0;
     }
 
 }
