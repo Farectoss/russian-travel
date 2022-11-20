@@ -2,9 +2,3 @@
     width: 100%;
     position: relative;
 }
-
-.lead__image1 {
-    width: 100%;
-    z-index: 1;
-    object-fit: cover;
-}
