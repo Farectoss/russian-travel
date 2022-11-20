@@ -2,7 +2,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: 8px;
+    padding-top: -56px;
     align-items: center;
     max-width: 984px;
 }
