@@ -1,12 +1,21 @@
 .lead__title {
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
     text-align: center;
     color: #fff;
     max-width: 720px;
-    min-height: 200px;
     margin: 0;
-    white-space: pre-line;
+}
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        min-height: 0;
+    }
 }

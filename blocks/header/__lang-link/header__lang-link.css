@@ -1,5 +1,5 @@
 .header__lang-link {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -8,4 +8,19 @@
     margin: 0;
     display: flex;
     gap: 18px;
+}
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+.header__lang-link:hover {
+    transition: all 0.5s linear;
+    opacity: 30%;
 }

@@ -5,3 +5,12 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .place__website {
+        padding-left: 16px;
+    }
+}

@@ -1,4 +1,43 @@
 .intro {
     align-self: flex-start;
     padding-left: 148px;
+    padding-bottom: 92px;
+}
+
+/*разрешение от 0 до 769px*/
+@media screen and (max-width: 769px) {
+
+    .intro {
+        min-width: 200px;
+    }
+}
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .intro {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+}
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .intro {
+        min-width: 200px;
+        padding: 0 24px;
+    }
+}
+
+/*при разрешении от 1023 до 1279px */
+/*разрешение 1024px */
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+
+    .intro {
+        padding-left: 48px;
+    }
 }

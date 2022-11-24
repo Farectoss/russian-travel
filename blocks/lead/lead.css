@@ -2,7 +2,27 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: -56px;
+    padding-bottom: 92px;
     align-items: center;
     max-width: 984px;
+}
+
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+
+    .lead {
+        width: 100%;
+    }
+}
+
+/*при разрешении от 1023 до 1279px */
+/*разрешение 1024px */
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+
+    .lead {
+        max-width: 928px;
+    }
 }

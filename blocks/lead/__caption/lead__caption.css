@@ -1,5 +1,5 @@
 .lead__caption {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
@@ -9,4 +9,24 @@
     align-self: flex-start;
     padding-top: 8px;
     margin: 0;
+    text-transform: uppercase;
+}
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .lead__caption {
+        padding-left: 16px;
+    }
+}
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .lead__caption {
+        padding-left: 24px;
+    }
 }

@@ -16,5 +16,5 @@
     font-family: 'Inter';
     src: url("../fonts//Inter-Black.woff") format("woff");
     src: url("../fonts/Inter-Black.woff2") format("woff2");
-    font-weight: normal;
+    font-weight: 900;
 }

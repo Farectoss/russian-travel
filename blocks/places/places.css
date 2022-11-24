@@ -5,4 +5,24 @@
     align-items: center;
     margin: 0;
     max-width: 984px;
+    padding-bottom: 92px;
+}
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .places {
+        padding: 0 24px;
+    }
+}
+
+/*при разрешении от 1023 до 1279px */
+/*разрешение 1024px */
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+
+    .places {
+        padding: 0 48px;
+    }
 }

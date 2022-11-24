@@ -1,5 +1,5 @@
 .intro__title {
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
@@ -7,4 +7,14 @@
     color: #fff;
     width: 100%;
     margin: 0 0 40px;
+}
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

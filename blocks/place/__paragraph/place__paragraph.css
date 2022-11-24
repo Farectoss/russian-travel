@@ -5,3 +5,24 @@
     row-gap: 26px;
     grid-area: paragraph;
 }
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .place__paragraph {
+        padding: 0 16px;
+    }
+
+}
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

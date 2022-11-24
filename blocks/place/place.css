@@ -9,3 +9,34 @@
         "image paragraph"
         "image paragraph";
 }
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .place {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 32px;
+    }
+}
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .place {
+        column-gap: 28px;
+    }
+}
+
+/*при разрешении от 1023 до 1279px */
+/*разрешение 1024px */
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+
+    .place {
+        column-gap: 32px;
+    }
+}

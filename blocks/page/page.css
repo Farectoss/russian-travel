@@ -3,8 +3,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 92px;
+    /*gap: 92px;*/
     margin: 0 auto;
     max-width: 1280px;
     justify-content: space-between;
+    outline: 1px solid red;
+    min-width: 320px;
+}
+
+/*при разрешении от 0 до 760px */
+
+@media screen and (max-width: 760px) {
+
+    .page {
+        gap: 64px;
+    }
+}
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .page {
+        gap: 88px;
+    }
 }
