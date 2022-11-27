@@ -1,6 +1,8 @@
 .footer__links {
     display: inline-flex;
     gap: 18px;
+    list-style: none;
+    padding: 0;
 }
 
 /*при разрешении от 0 до 760px */
