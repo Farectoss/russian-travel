@@ -2,7 +2,6 @@
     min-height: 740px;
     width: 100%;
     max-width: 1184px;
-    margin: 0 auto;
     position: relative;
     display: flex;
     gap: 32px;
@@ -26,12 +25,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.3;
     z-index: -1;
 }
 
 .cover:hover::before {
-    opacity: 0.3;
+    background-color: #2A2C2F;
+    opacity: 0.8;
 }
 
 

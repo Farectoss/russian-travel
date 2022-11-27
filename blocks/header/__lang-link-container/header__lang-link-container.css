@@ -1,5 +1,8 @@
 .header__lang-link-container {
     padding-right: 48px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
 }
 
 

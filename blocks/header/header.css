@@ -7,10 +7,27 @@
 }
 
 /*при разрешении от 0 до 760px */
+/*разрешение 320px */
 
 @media screen and (max-width: 760px) {
 
     .header {
         padding-top: 16px;
+    }
+}
+
+
+/*при разрешении от 761 до 1023px */
+/*разрешение 768px */
+
+@media screen and (min-width: 761px) and (max-width: 1023px) {}
+
+/*при разрешении от 0 до 1279px */
+/*разрешение 320, 768, 1024px */
+
+@media screen and (max-width: 1279px) {
+
+    .header {
+        padding-bottom: 48px;
     }
 }

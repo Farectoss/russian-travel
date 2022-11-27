@@ -6,8 +6,7 @@
     line-height: 28px;
     color: #fff;
     margin: 0;
-    display: flex;
-    gap: 18px;
+    text-decoration: none;
 }
 
 /*при разрешении от 0 до 760px */
