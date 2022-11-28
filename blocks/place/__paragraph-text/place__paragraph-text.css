@@ -7,3 +7,14 @@
     color: #fff;
     margin: 0;
 }
+
+/*при разрешении от 767 до 1023px */
+/*разрешение 320px, 768px */
+
+@media screen and (max-width: 1023px) {
+
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

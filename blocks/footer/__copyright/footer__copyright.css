@@ -6,6 +6,7 @@
     flex-grow: 3;
     text-align: right;
     color: #fff;
+    margin: 0;
 }
 
 /*при разрешении от 0 до 760px */
