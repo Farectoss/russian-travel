@@ -5,4 +5,37 @@
     text-decoration: none;
     gap: 32px;
     width: 100%;
+    padding: 245px 0;
+}
+
+.cover__link:hover {
+    background: rgba(42, 44, 47, 0.8);
+}
+
+
+/*при разрешении от 0 до 1024px */
+
+@media screen and (max-width: 760px) {
+
+    .cover__link {
+        padding: 195px 0;
+    }
+}
+
+/*при разрешении от 0 до 768px */
+
+@media screen and (max-width: 768px) {
+
+    .cover__link {
+        padding: 115px 0;
+    }
+}
+
+/*при разрешении от 0 до 320px */
+
+@media screen and (max-width: 320px) {
+
+    .cover__link {
+        padding: 33px 0;
+    }
 }

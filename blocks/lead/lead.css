@@ -13,7 +13,7 @@
 @media screen and (min-width: 767px) and (max-width: 1279px) {
 
     .lead {
-        max-width: auto;
+        max-width: none;
         margin: 0;
         padding-bottom: 88px;
     }
