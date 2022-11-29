@@ -6,12 +6,23 @@
     gap: 32px;
     width: 100%;
     padding: 245px 0;
+    z-index: 2;
 }
 
 .cover__link:hover {
     background: rgba(42, 44, 47, 0.8);
 }
 
+.cover__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(42, 44, 47, 0.3);
+    z-index: -1;
+}
 
 /*при разрешении от 0 до 1024px */
 

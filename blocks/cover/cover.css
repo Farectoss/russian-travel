@@ -10,6 +10,7 @@
     align-content: center;
     background-size: cover;
     background-image: url(../../images/__background.jpg);
+    z-index: 1;
 }
 
 
