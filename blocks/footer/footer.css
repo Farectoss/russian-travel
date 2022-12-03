@@ -1,12 +1,11 @@
 .footer {
     display: flex;
-    margin: 0 48px 24px;
+    padding: 92px 48px 24px;
     column-gap: 18px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1184px;
-    padding-top: 92px;
 }
 
 /*при разрешении от 0 до 1024px */
@@ -14,7 +13,7 @@
 @media screen and (max-width: 1024px) {
 
     .footer {
-        margin: 0 48px 24px;
+        padding: 92px 48px 24px;
     }
 }
 
@@ -23,20 +22,21 @@
 @media screen and (max-width: 768px) {
 
     .footer {
-        margin: 0 24px 0;
+        padding: 85px 24px 24px;
     }
 }
 
-/*при разрешении от 0 до 760px */
+/*при разрешении от 0 до 320px */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 320px) {
 
     .footer {
         flex-direction: column;
-        margin: 0 24px 0;
         width: auto;
         align-self: flex-start;
         gap: 48px;
         padding-bottom: 24px;
+        padding-top: 64px;
+        padding-left: 16px;
     }
 }

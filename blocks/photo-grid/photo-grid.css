@@ -3,7 +3,6 @@
     grid-template-columns: repeat(4, minmax(270px, 1fr));
     grid-gap: 16px;
     padding: 0 48px 92px;
-    /*max-width: 928px;*/
 }
 
 /*разрешение от 0 до 1279px*/
