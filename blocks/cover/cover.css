@@ -1,7 +1,6 @@
 .cover {
     width: 100%;
     max-width: 1184px;
-    position: relative;
     display: flex;
     gap: 32px;
     flex-direction: column;
